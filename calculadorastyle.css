@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     padding-top: 20px;
     background-color: darkblue;
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
 
 }
@@ -53,6 +53,10 @@ button {
     width: 70px;
     height: 70px;
     border-radius: 10px;
+}
+
+button:active {
+    background-color: rgb(68, 68, 68);
 }
 
 .simb{
