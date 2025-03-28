@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calculadorastyle.css">
+    <title>Calculadora - DEV DIEGO PAULO</title>
+    <link rel="icon" href="favcon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="titulo">
+                <h1>DEV DIEGO PAULO</h1>
+        <h3>Calculadora em JavaScript</h3>
+        
+    </div>
+
+    <div class="container">
+
+        <input placeholder="Digite sua conta" id="meuInput">
+        <section>
+            <button onclick="add()" class="simb">+</button>
+            <button onclick="sub()" class="simb">-</button>
+            <button onclick="mult()" class="simb">x</button>
+            <button onclick="divd()" class="simb">÷</button>
+        </section>
+        <section class="numbers">
+            <button onclick="add7()">7</button>
+            <button onclick="add8()">8</button>
+            <button onclick="add9()">9</button>
+
+
+            <button onclick="add4()">4</button>
+            <button onclick="add5()">5</button>
+            <button onclick="add6()">6</button>
+
+
+            <button onclick="add1()">1</button>
+            <button onclick="add2()">2</button>
+            <button onclick="add3()">3</button>
+
+
+
+            <button class="buttonReset" onclick="clean()">C</button>
+            <button onclick="add0()">0</button>
+            <button class="buttonResult" onclick="resultBrabo()">=</button>
+
+        </section>
+    </div>
+
+    <script src="./calculadorascript.js"></script>
+</body>
+
+</html>
